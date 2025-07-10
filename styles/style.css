@@ -151,3 +151,50 @@ header{
     max-width: 180px;
     height: 121px;
 }
+
+/* feedback */
+
+.sub{
+    background-color: rgba(247, 242, 242, 0.226);
+    border-radius: 10px;
+    height: 243px;
+    width: 366px;
+}
+.main{
+    display: flex;
+    max-width: 1140px;
+    height: 342px;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.p-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.feedback-title{
+    max-width: 221px;
+    height: 29px;
+    color: #1E1E1E;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.reviwer{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+.name{
+    padding-left: 10px;
+    color: #757575;
+    font-weight: bold;
+}
+.date{
+    color: #B3B3B3;
+}
+
