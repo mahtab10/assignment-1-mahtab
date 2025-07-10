@@ -9,7 +9,8 @@
 header{
     background-image: url("../images/Hero-bg.png");
     height: 698px;
-    max-width: 1140px;
+    /* max-width: 1440px; */
+    margin: 0 auto;
 }
 
 /* Nav style*/
@@ -43,12 +44,12 @@ header{
 
 .header-titel{
     font-size: 65px;
-    width: 905px;
+    max-width: 905px;
     height: 152px;
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
-    padding: 90px 20px;
+    padding: 90px 20px 0px;
 }
 .h-button{
     background-color: #4E47FF;
@@ -67,4 +68,41 @@ header{
       display: flex;
       justify-content: center;
       padding: 37px;
+}
+
+/* action part */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    padding: 100px 150px;
+}
+
+.action-title{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+    
+}
+.action-title-description{
+    max-width: 517px;
+    font-size: 24px;
+    color: #25243273;
+    font-weight: 400;
+
+}
+.action-button{
+    background-color: #4E47FF;
+    height: 48px;
+    width: 229px;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
 }
