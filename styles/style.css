@@ -41,6 +41,10 @@ header{
     font-size: 16px;
     border-radius: 10px;
 } 
+ 
+button:hover {
+    background-color: #197ddb;
+  }
 
 .header-titel{
     font-size: 65px;
@@ -197,4 +201,68 @@ header{
 .date{
     color: #B3B3B3;
 }
+
+/* form */
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .left-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .left-content h1 {
+    font-size: 97px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .right-form {
+    width: 500px;                  
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #d9e1e715;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(243, 246, 247);
+  }
+
+  button {
+    width: 500px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
 
